@@ -38,7 +38,7 @@ if ($append) {
     $sectionStart+= $sections;
     $sections++;
 }
-$nodeName = $count/2;
+$nodeName = ceil($count/2);
 $path = $rootPath.'/1/'.$nodeName;
 $stopWatch = new \Symfony\Component\Stopwatch\Stopwatch();
 
